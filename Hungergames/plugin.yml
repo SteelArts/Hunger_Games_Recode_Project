@@ -1,0 +1,9 @@
+name: HungerGames
+author: bob7l
+description: A Simple, fun, HungerGames plugin
+version: 2.2
+main: me.minebuilders.hg.HG
+softdepend: [Multiverse-Core, MultiWorld, Vault, My Worlds]
+commands:
+  hg:
+    description: HungerGames Base command

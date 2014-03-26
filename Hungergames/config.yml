@@ -1,0 +1,81 @@
+settings:
+    spawn-mobs: true
+    spawn-mobs-interval: 35
+    free-roam: 25
+    trackingstick-uses: 8
+    players-for-trackingstick: 5
+    max-chestcontent: 5
+    teleport-at-end: true
+reward:
+    enabled: true
+    cash: 500
+rollback:
+    allow-block-break: false
+    editable-blocks:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 24
+        - 35
+        - 43
+        - 43
+        - 98
+        - 102
+        - 125
+kits:
+    bowman:
+        permission: none
+        helmet: 298 color:red
+        chestplate: 299 color:red
+        leggings: 300 color:red
+        boots: 301 color:red
+        items:
+            - 261 1 name:&2Lucky_Bow
+            - 262 64
+            - 373:8229 2
+        potion-effects:
+    survivor:
+        permission: none
+        helmet: 18
+        chestplate: 299 color:green
+        leggings: 300 color.green
+        boots: 0
+        items:
+            - 272 1
+            - 297 4
+            - 373:8229 2
+        potion-effects:
+    pro:
+        permission: none
+        helmet: 0
+        chestplate: 0
+        leggings: 0
+        boots: 0
+        items:
+            - 267 1
+            - 297 4
+            - 373:8229 2
+        potion-effects:
+    ninja:
+        permission: none
+        helmet: 0
+        chestplate: 299 color:black name:&7Ninja-ChestPlate lore:&6Ninja-Stealth-Suit:&4------------- enchant:PROTECTION_FIRE
+        leggings: 300 color:black
+        boots: 301 color:black enchant:PROTECTION_FALL
+        items:
+            - 373:8229 2 name:&bSuper-healing
+        potion-effects:
+            - SPEED.1.forever
+    stupidclass:
+        permission: hg.vip
+        helmet: 0
+        chestplate: 0
+        leggings: 0
+        boots: 0
+        items:
+            - 267 1 enchant:SHARPNESS:2 enchant:DAMAGE_UNDEAD:2 name:&6OP_sword?
+            - 297 4
+            - 373:8229 2
+        potion-effects:
+            - FIRE_RESISTANCE.2.forever
